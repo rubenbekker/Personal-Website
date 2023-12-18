@@ -188,6 +188,10 @@ section {
     margin:auto 0;
 }
 
+.section__pic-container img {
+    border-radius: 2rem;
+}
+
 .section__text {
     align-self: center;
     text-align: center;
@@ -311,10 +315,6 @@ section {
     display: flex;
 }
 
-.about-pic {
-    border-radius: 2rem;
-}
-
 .arrow {
     position: absolute;
     right: -5rem;
@@ -342,3 +342,15 @@ section {
     width: 400px;
     margin: auto 0;
 }
+
+.about-pic img {
+    border-radius: 2rem;
+}
+
+.section__pic-container img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+
